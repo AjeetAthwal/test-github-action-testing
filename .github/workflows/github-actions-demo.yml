@@ -3,7 +3,7 @@ name: Push Event Workflow
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   unit-testing:
